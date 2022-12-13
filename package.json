@@ -4,10 +4,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
+    "dev-one": "astro dev --config astro.config.one.mjs",
+    "build-one": "astro build --config astro.config.one.mjs",
+    "preview-one": "astro preview --config astro.config.one.mjs",
+    "dev-two": "astro dev --config astro.config.two.mjs",
+    "build-two": "astro build --config astro.config.two.mjs",
+    "preview-two": "astro preview --config astro.config.two.mjs",
     "astro": "astro"
   },
   "dependencies": {
